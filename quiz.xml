@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+    <question id="q1">
+        <hanzi>你好</hanzi>
+        <pinyin>nǐ hǎo</pinyin>
+        <options>
+            <option>Hello</option>
+            <option>Goodbye</option>
+            <option>Thank you</option>
+            <option>Please</option>
+        </options>
+        <correct>Hello</correct>
+    </question>
+    <question id="q2">
+        <hanzi>谢谢</hanzi>
+        <pinyin>xiè xie</pinyin>
+        <options>
+            <option>Sorry</option>
+            <option>Excuse me</option>
+            <option>Thank you</option>
+            <option>Welcome</option>
+        </options>
+        <correct>Thank you</correct>
+    </question>
+    <question id="q3">
+        <hanzi>再见</hanzi>
+        <pinyin>zài jiàn</pinyin>
+        <options>
+            <option>Hello</option>
+            <option>Goodbye</option>
+            <option>Good morning</option>
+            <option>Good night</option>
+        </options>
+        <correct>Goodbye</correct>
+    </question>
+    <question id="q4">
+        <hanzi>对不起</hanzi>
+        <pinyin>duì bu qǐ</pinyin>
+        <options>
+            <option>You're welcome</option>
+            <option>It's okay</option>
+            <option>Sorry</option>
+            <option>No problem</option>
+        </options>
+        <correct>Sorry</correct>
+    </question>
+    <question id="q5">
+        <hanzi>不客气</hanzi>
+        <pinyin>bú kè qi</pinyin>
+        <options>
+            <option>You're welcome</option>
+            <option>Hello</option>
+            <option>Thank you</option>
+            <option>Goodbye</option>
+        </options>
+        <correct>You're welcome</correct>
+    </question>
+    <question id="q6">
+        <hanzi>是</hanzi>
+        <pinyin>shì</pinyin>
+        <options>
+            <option>No</option>
+            <option>Yes</option>
+            <option>Maybe</option>
+            <option>Why</option>
+        </options>
+        <correct>Yes</correct>
+    </question>
+    <question id="q7">
+        <hanzi>不</hanzi>
+        <pinyin>bù</pinyin>
+        <options>
+            <option>Yes</option>
+            <option>No</option>
+            <option>Maybe</option>
+            <option>Okay</option>
+        </options>
+        <correct>No</correct>
+    </question>
+    <question id="q8">
+        <hanzi>吃</hanzi>
+        <pinyin>chī</pinyin>
+        <options>
+            <option>Drink</option>
+            <option>Sleep</option>
+            <option>Eat</option>
+            <option>Walk</option>
+        </options>
+        <correct>Eat</correct>
+    </question>
+    <question id="q9">
+        <hanzi>喝</hanzi>
+        <pinyin>hē</pinyin>
+        <options>
+            <option>Eat</option>
+            <option>Drink</option>
+            <option>Run</option>
+            <option>Read</option>
+        </options>
+        <correct>Drink</correct>
+    </question>
+    <question id="q10">
+        <hanzi>水</hanzi>
+        <pinyin>shuǐ</pinyin>
+        <options>
+            <option>Fire</option>
+            <option>Earth</option>
+            <option>Air</option>
+            <option>Water</option>
+        </options>
+        <correct>Water</correct>
+    </question>
+    <question id="q11">
+        <hanzi>饭</hanzi>
+        <pinyin>fàn</pinyin>
+        <options>
+            <option>Soup</option>
+            <option>Tea</option>
+            <option>Rice/Meal</option>
+            <option>Noodles</option>
+        </options>
+        <correct>Rice/Meal</correct>
+    </question>
+    <question id="q12">
+        <hanzi>老师</hanzi>
+        <pinyin>lǎo shī</pinyin>
+        <options>
+            <option>Student</option>
+            <option>Doctor</option>
+            <option>Teacher</option>
+            <option>Engineer</option>
+        </options>
+        <correct>Teacher</correct>
+    </question>
+    <question id="q13">
+        <hanzi>学生</hanzi>
+        <pinyin>xué sheng</pinyin>
+        <options>
+            <option>Teacher</option>
+            <option>Student</option>
+            <option>Parent</option>
+            <option>Friend</option>
+        </options>
+        <correct>Student</correct>
+    </question>
+    <question id="q14">
+        <hanzi>中国</hanzi>
+        <pinyin>Zhōng guó</pinyin>
+        <options>
+            <option>America</option>
+            <option>Japan</option>
+            <option>Korea</option>
+            <option>China</option>
+        </options>
+        <correct>China</correct>
+    </question>
+    <question id="q15">
+        <hanzi>美国</hanzi>
+        <pinyin>Měi guó</pinyin>
+        <options>
+            <option>China</option>
+            <option>England</option>
+            <option>France</option>
+            <option>America</option>
+        </options>
+        <correct>America</correct>
+    </question>
+    <question id="q16">
+        <hanzi>多少</hanzi>
+        <pinyin>duō shao</pinyin>
+        <options>
+            <option>How much/many</option>
+            <option>What</option>
+            <option>Where</option>
+            <option>When</option>
+        </options>
+        <correct>How much/many</correct>
+    </question>
+    <question id="q17">
+        <hanzi>钱</hanzi>
+        <pinyin>qián</pinyin>
+        <options>
+            <option>Time</option>
+            <option>Money</option>
+            <option>Food</option>
+            <option>House</option>
+        </options>
+        <correct>Money</correct>
+    </question>
+    <question id="q18">
+        <hanzi>买</hanzi>
+        <pinyin>mǎi</pinyin>
+        <options>
+            <option>Sell</option>
+            <option>Read</option>
+            <option>Buy</option>
+            <option>Write</option>
+        </options>
+        <correct>Buy</correct>
+    </question>
+    <question id="q19">
+        <hanzi>电脑</hanzi>
+        <pinyin>diàn nǎo</pinyin>
+        <options>
+            <option>Television</option>
+            <option>Phone</option>
+            <option>Computer</option>
+            <option>Book</option>
+        </options>
+        <correct>Computer</correct>
+    </question>
+    <question id="q20">
+        <hanzi>喜欢</hanzi>
+        <pinyin>xǐ huan</pinyin>
+        <options>
+            <option>Hate</option>
+            <option>Dislike</option>
+            <option>Like</option>
+            <option>Love</option>
+        </options>
+        <correct>Like</correct>
+    </question>
+</quiz>

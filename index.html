@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinese Quiz</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to Google Fonts for Inter and Noto Sans SC -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-inter antialiased">
+    <div id="app">
+        <!-- Main Application Content -->
+        <div class="quiz-container-main">
+            <!-- Header -->
+            <h1 class="header-title">
+                Chinese Character Quiz
+            </h1>
+            <p class="header-description">
+                Test your knowledge of Chinese Hanzi and Pinyin!
+            </p>
+
+            <!-- Loading/Error Status Message -->
+            <div id="loading-status" class="loading-status hidden"></div>
+
+            <!-- Quiz Start Screen -->
+            <div id="start-screen" class="screen">
+                <button id="start-quiz-button" class="primary-button">
+                    Start Quiz
+                </button>
+            </div>
+
+            <!-- Quiz In Progress Screen -->
+            <div id="quiz-screen" class="screen hidden">
+                <!-- Question Number Indicator -->
+                <p id="question-indicator" class="question-number-indicator">
+                    Question 1 / 20
+                </p>
+
+                <!-- Quiz Question Card -->
+                <div class="quiz-question-card">
+                    <!-- Hanzi and Pinyin Display -->
+                    <div class="hanzi-pinyin-display">
+                        <p id="hanzi-display" class="hanzi-text"></p>
+                        <p id="pinyin-display" class="pinyin-text"></p>
+                    </div>
+
+                    <!-- Quiz Options Grid -->
+                    <div id="options-grid" class="options-grid">
+                        <!-- Options will be dynamically inserted here by JavaScript -->
+                    </div>
+
+                    <!-- Feedback Message -->
+                    <div id="feedback-message" class="feedback-message hidden"></div>
+
+                    <!-- Next Question Button -->
+                    <button id="next-question-button" class="next-question-button hidden">
+                        Next Question
+                    </button>
+                </div>
+            </div>
+
+            <!-- Quiz Results Screen -->
+            <div id="results-screen" class="screen hidden">
+                <div class="quiz-results-card">
+                    <h2 class="results-title">Quiz Complete!</h2>
+                    <p class="score-text">Your Score: <span id="score-value" class="score-value">0 / 0</span></p>
+                    <p id="percentage-text" class="percentage-text">0%</p>
+                    <p id="feedback-message-results" class="feedback-message-results"></p>
+                    <button id="play-again-button" class="primary-button">
+                        Play Again
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer for attribution or extra info -->
+        <footer class="app-footer">
+            <p>&copy; 2025 Chinese Quiz App. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
